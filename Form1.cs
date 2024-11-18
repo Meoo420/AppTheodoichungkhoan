@@ -19,7 +19,6 @@ namespace StockTrackerApp
             chatBot = new ChatBot();
             InitializeUI();
         }
-
         private void InitializeUI()
         {
             this.Text = "Tỷ giá chứng khoán";
