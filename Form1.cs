@@ -29,7 +29,7 @@ namespace StockTrackerApp
             this.BackgroundImageLayout = ImageLayout.Stretch;
 
             Label stockLabel = new Label();
-            stockLabel.Text = "Chọn Mã Chứng Khoán:";
+            stockLabel.Text = "Chọn Mã Chứng Khoán :";
             stockLabel.ForeColor = Color.Red;
             stockLabel.Location = new Point(20, 20);
             stockLabel.Font = new Font("Arial", 14);
