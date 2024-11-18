@@ -41,7 +41,7 @@ namespace StockTrackerApp
                     
                     return closePrice > openPrice
                         ? $"Dựa vào phân tích thì giá {stockSymbol} có khả năng tăng. Lưu ý đây chỉ là dự đoán doán do còn các yếu tố khác có thể ảnh hưởng đến giá chứng khoán."
-                        : $"Dựa vào phân tích thì giá {stockSymbol} có khả năng giảm. Lưu ý đây chỉ là dự đoán doán do còn các yếu tố khác có thể ảnh hưởng đến giá chứng khoán.";
+                        : $"Dựa vào phân tích thì giá {stockSymbol} có khả năng giảm. Lưu ý đây chỉ là dự đoán doán do còn các yếu tố khác có thể ảnh hưởng đến giá chứng khoán";
                 }
                 catch (Exception ex)
                 {
